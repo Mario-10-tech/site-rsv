@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accueil | FuturNum</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #0d47a1, #1976d2);
+      color: white;
+      text-align: center;
+      padding: 100px 20px 60px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0 0 10px;
+    }
+
+    .projet-nom {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3.2em;
+      color: #ffcc00;
+      margin: 15px 0;
+    }
+
+    header p {
+      font-size: 1.3em;
+      max-width: 800px;
+      margin: 20px auto 30px;
+    }
+
+    .cta-button {
+      background-color: #ffcc00;
+      color: #0d47a1;
+      padding: 14px 30px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1.1em;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #ffe066;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 40px;
+      color: #0d47a1;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 25px;
+      width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .card h3 {
+      font-size: 1.3em;
+      color: #1976d2;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header h1 {
+        font-size: 2em;
+      }
+
+      .projet-nom {
+        font-size: 2.5em;
+      }
+
+      header p {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue dans le projet</h1>
+    <div class="projet-nom">FuturNum Competences</div>
+    <p>Avec FuturNum Competences, marchez au rythme de la technologie révolutionnaire et devenez acteur du numérique de demain.</p>
+  </header>
+
+  <section class="section">
+    <h2>Nos Formations Clés</h2>
+    <div class="cards">
+      <div class="card">
+        <h3> 🗣️ Anglais Appliqué</h3>
+        <p>Initiez-vous à l'IA à travers des modules interactifs et des projets concrets. Accessible à tous les curieux du futur.</p>
+      </div>
+      <div class="card">
+        <h3>🐍 Programmation Python</h3>
+        <p>Apprenez à coder et développer vos propres outils numériques avec Python, le langage universel du numérique.</p>
+      </div>
+      <div class="card">
+        <h3>🤖Intelligence artificielle</h3>
+        <p>Maîtrisez l'anglais professionnel et technique pour évoluer dans un environnement global et connecté.</p>
+      </div>
+    </div>
+  </section>
+
+  <div style="text-align: center; margin: 50px 0;">
+    <a href="program.html" style="
+      background-color: #0d47a1;
+      color: white;
+      padding: 14px 32px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    " onmouseover="this.style.backgroundColor='#1565c0'" onmouseout="this.style.backgroundColor='#0d47a1'">
+      Suivant →
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 FuturNum Competences| Contact : rsvcenter@gmail.com
+  </footer>
+
+</body>
+</html>
